@@ -1,16 +1,16 @@
   $(document).ready(function() {
     var urlParams = new URLSearchParams(window.location.search);
     var contacts = {
-      "bk":"https://docs.google.com/forms/d/e/1FAIpQLSeTZcAKuPyUeaeaUWZpCE2FzipNmUFoj4ruT13BJnbPHUdJXg/viewform",
-      "gb":"https://docs.google.com/forms/d/e/1FAIpQLSc4-J6x_kaOcmLGKQihvw8YvX0UcSsGvkDgggUvnW5Iil-7Ig/viewform",
-      "nd": "https://docs.google.com/forms/d/e/1FAIpQLSfMMy3YSrYNrsAY8wuMKY6nSSMwC9uiZ9nfiu7teVAqpja1Rg/viewform",
-      "ks": "https://docs.google.com/forms/d/e/1FAIpQLSd1_xpe8rfbC3DC3VQjO9MBeLyvdstQhucxYrmWdadJ0Z6L8w/viewform",
-      "ma-i": "https://docs.google.com/forms/d/e/1FAIpQLScDEhFtzGdSlyqb146QMn5LsACDzvSGuhPzI6Mxx0NqiqllJQ/viewform",
-      "sr-i":"https://docs.google.com/forms/d/e/1FAIpQLSdCH_2tPfkOIeNxpbwlaIaaRGodlUgzsAZ98WxmpEJf3by7Xg/viewform",
-      "mb-i":"https://docs.google.com/forms/d/e/1FAIpQLSc7zEEZE4CRdaCzcMkRlVHeRQcONXZJFru4gl7KcO561JdHCw/viewform",
-      "hr-i":"https://docs.google.com/forms/d/e/1FAIpQLScvOT133j1swe973Q_C30qFtz51SU-Ra7k66hqf1SUdVB0-zg/viewform",
-      "lr-i":"https://docs.google.com/forms/d/e/1FAIpQLSdO8A3osEf_qJeS64lFMC8zVnXOYNoLdAyol0TXF6b-9uqZuA/viewform",
-      "gc":"https://docs.google.com/forms/d/e/1FAIpQLScj3R-RLtE0WReWUcRSQtRNw_k7HIPo_fZ8nwDQCzaXH0Aoig/viewform"
+      "bk":"https://forms.gle/KRM2aEa9aGgZUeSK8",
+      "gf":"https://forms.gle/muE4Q8Z8tYbFiKQS9",
+      "nd": "https://forms.gle/LeNKZ8akKHfWsgeS9",
+      "ks": "https://forms.gle/CGTKzqaofMVGX54QA",
+      "ma": "https://forms.gle/BMkz5kv9p9gaUdn47",
+      "sr":"https://forms.gle/y5WXDSfuo4pzwjTs5",
+      "mb":"https://forms.gle/VGKujcjwehwd4aBR9",
+      "hr":"https://forms.gle/emLg86PNJDs23HL56",
+      "lr":"https://forms.gle/bYpSsWfXP47CmBis7",
+      "gc":"https://forms.gle/TeQKB4Tc5rz1bavB6"
     }
 
     for (i in contacts) {
