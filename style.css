@@ -68,7 +68,7 @@ div {
     padding: 3%;
 }
 .i {
-	font-family: Josefin sans;
+    font-family: "Josefin sans", sans-serif;
 	font-style: italic;
     line-height: 1.5rem;
 }
