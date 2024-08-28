@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.section {
+    position: relative;
+    height: auto;
+    background-image: url('bg.png');
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.section img.left-image {
+    position: absolute;
+    left: 75px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 20%;
+    height: auto;
+}
+.section img.right-image {
+    position: absolute;
+    right: 75px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 20%;
+    height: auto;
+}
+.content {
+    color: black;
+    width: auto;
+}
+.content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.content p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.content .button {
+	padding: 20px 45px;
+	font-size: 18px;
+	color: black;
+	background-color: white;
+	border: 1px ridge #b29c80;
+	border-radius: 30px;
+	cursor: pointer;
+	font-family: Josefin sans;
+    display: inline-block;
+	margin-top: 5%;
+	text-decoration: none;
+}
+.content .button:hover {
+	background-color: #b29c80;
+	color: white;
+}
+.content > div {
+    padding: 3%;
+}
+.i {
+	font-family: Josefin sans;
+	font-style: italic;
+	margin: 2%;
+}
+.b {
+  font-family: "Cuprum", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+.d {
+	border-top: 1px ridge;
+	border-bottom: 1px ridge;
+	padding: 7% !important;
+	margin: 5%;
+}
+.l {
+	padding: 1% !important;
+}
+.p {
+	margin-top: 10%;
+}
+@media only screen and (max-width: 500px) {
+	.section img.left-image {
+	    position: absolute;
+	    left: 12px;
+	    top: 25%;
+	    transform: translateY(-50%);
+	    max-width: 20%;
+	    height: auto;
+	}
+	.section img.right-image {
+        position: absolute;
+	    right: 12px;
+	    top: 25%;
+	    transform: translateY(-50%);
+	    max-width: 20%;
+	    height: auto;
+	}
+}
