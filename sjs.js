@@ -10,7 +10,8 @@
       "mb":"https://forms.gle/VGKujcjwehwd4aBR9",
       "hr":"https://forms.gle/emLg86PNJDs23HL56",
       "lr":"https://forms.gle/bYpSsWfXP47CmBis7",
-      "gc":"https://forms.gle/TeQKB4Tc5rz1bavB6"
+      "gc":"https://forms.gle/TeQKB4Tc5rz1bavB6",
+      "sc":"https://forms.gle/p2oUtuuoA96JRq6fA"
     }
 
     for (i in contacts) {
